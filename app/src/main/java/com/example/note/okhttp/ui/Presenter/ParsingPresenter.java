@@ -7,4 +7,6 @@ import java.util.HashMap;
  */
 public interface ParsingPresenter {
    void getNews(String html);
+   void getJson(String json);
+   void showNext();
 }
